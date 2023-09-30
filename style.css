@@ -1,0 +1,86 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+
+}
+body{ 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(34deg, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.518));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{ 
+    width: 40%;
+    height: 96%; 
+    border: 1px solid white;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* background: transparent; */
+}
+.container-1{ 
+    margin-top: 200px;
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    background: #000;
+    border-radius: 8px; 
+    flex-direction: column; 
+}
+.container-2{ 
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    margin-bottom: 50px; 
+}
+
+.ul-div{ 
+    width: inherit;
+    height: inherit;
+    /* overflow-y:scroll ; */
+   text-align: center;
+   text-decoration: underline;
+   color: blue;
+    
+}
+.ul-div li{ 
+    list-style: none;
+}
+#current-image-container{ 
+    width: 98%;
+    border: 1px solid white; 
+    height: 60%;  
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.details{ 
+    width: 98%;
+    height: fit-content;
+    overflow-y: scroll;
+} 
+p{ 
+    white-space: normal;
+    text-align: justify;
+}
+.details::-webkit-scrollbar{ 
+    display: none;
+}
+img{ 
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+}
